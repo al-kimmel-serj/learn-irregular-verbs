@@ -31,7 +31,9 @@ function App() {
 
     if (currentIndex === null) {
         return (
-            <div>Loading ...</div>
+            <div className="App">
+                <h1>Loading ...</h1>
+            </div>
         );
     }
 
