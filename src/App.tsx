@@ -17,19 +17,24 @@ async function fetchShuffledIrregularVerbs(): Promise<IrregularVerb[]> {
 
 function App() {
     const [irregularVerbs, setIrregularVerbs] = useState<IrregularVerb[]>([]);
-    const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+    const [irregularVerbsIsLoading, setIrregularVerbsIsLoading] = useState<boolean>(false);
+    const [currentIndex, setCurrentIndex] = useState<number>(0);
 
     useEffect(() => {
         const fetchDataFromBackend = async () => {
-            const remoteIrregularVerbs = await fetchShuffledIrregularVerbs();
-            setIrregularVerbs(remoteIrregularVerbs);
-            setCurrentIndex(0);
+            try {
+                setIrregularVerbsIsLoading(true);
+                const remoteIrregularVerbs = await fetchShuffledIrregularVerbs();
+                setIrregularVerbs(remoteIrregularVerbs);
+            } finally {
+                setIrregularVerbsIsLoading(false);
+            }
         }
 
         fetchDataFromBackend().catch(console.error);
     }, []);
 
-    if (currentIndex === null) {
+    if (irregularVerbsIsLoading) {
         return (
             <div className="App">
                 <h1>Loading ...</h1>
