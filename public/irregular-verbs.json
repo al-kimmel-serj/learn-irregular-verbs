@@ -1,0 +1,242 @@
+[
+  {
+    "baseForm": "be",
+    "pastTense": "was/were",
+    "pastParticiple": "been",
+    "translation": "быть"
+  },
+  {
+    "baseForm": "become",
+    "pastTense": "became",
+    "pastParticiple": "become",
+    "translation": "становиться"
+  },
+  {
+    "baseForm": "begin",
+    "pastTense": "began",
+    "pastParticiple": "begun",
+    "translation": "начинать"
+  },
+  {
+    "baseForm": "blow",
+    "pastTense": "blew",
+    "pastParticiple": "blown",
+    "translation": "дуть"
+  },
+  {
+    "baseForm": "break",
+    "pastTense": "broke",
+    "pastParticiple": "broken",
+    "translation": "ломать"
+  },
+  {
+    "baseForm": "bring",
+    "pastTense": "brought",
+    "pastParticiple": "brought",
+    "translation": "приносить"
+  },
+  {
+    "baseForm": "build",
+    "pastTense": "built",
+    "pastParticiple": "built",
+    "translation": "строить"
+  },
+  {
+    "baseForm": "buy",
+    "pastTense": "bought",
+    "pastParticiple": "bought",
+    "translation": "покупать"
+  },
+  {
+    "baseForm": "catch",
+    "pastTense": "caught",
+    "pastParticiple": "caught",
+    "translation": "ловить, хватать, успеть"
+  },
+  {
+    "baseForm": "choose",
+    "pastTense": "chose",
+    "pastParticiple": "chosen",
+    "translation": "выбирать"
+  },
+  {
+    "baseForm": "come",
+    "pastTense": "came",
+    "pastParticiple": "come",
+    "translation": "приходить"
+  },
+  {
+    "baseForm": "cost",
+    "pastTense": "cost",
+    "pastParticiple": "cost",
+    "translation": "стоить"
+  },
+  {
+    "baseForm": "cut",
+    "pastTense": "cut",
+    "pastParticiple": "cut",
+    "translation": "резать"
+  },
+  {
+    "baseForm": "do",
+    "pastTense": "did",
+    "pastParticiple": "done",
+    "translation": "делать"
+  },
+  {
+    "baseForm": "draw",
+    "pastTense": "drew",
+    "pastParticiple": "drawn",
+    "translation": "рисовать, тащить"
+  },
+  {
+    "baseForm": "dream",
+    "pastTense": "dreamt",
+    "pastParticiple": "dreamt",
+    "translation": "мечтать, дремать"
+  },
+  {
+    "baseForm": "drink",
+    "pastTense": "drank",
+    "pastParticiple": "drunk",
+    "translation": "пить"
+  },
+  {
+    "baseForm": "drive",
+    "pastTense": "drove",
+    "pastParticiple": "driven",
+    "translation": "водить"
+  },
+  {
+    "baseForm": "eat",
+    "pastTense": "ate",
+    "pastParticiple": "eaten",
+    "translation": "есть"
+  },
+  {
+    "baseForm": "fall",
+    "pastTense": "fell",
+    "pastParticiple": "fallen",
+    "translation": "падать"
+  },
+  {
+    "baseForm": "feed",
+    "pastTense": "fed",
+    "pastParticiple": "fed",
+    "translation": "кормить"
+  },
+  {
+    "baseForm": "feel",
+    "pastTense": "felt",
+    "pastParticiple": "felt",
+    "translation": "чувствовать"
+  },
+  {
+    "baseForm": "find",
+    "pastTense": "found",
+    "pastParticiple": "found",
+    "translation": "находить"
+  },
+  {
+    "baseForm": "fly",
+    "pastTense": "flew",
+    "pastParticiple": "flown",
+    "translation": "летать"
+  },
+  {
+    "baseForm": "forget",
+    "pastTense": "forgot",
+    "pastParticiple": "forgotten",
+    "translation": "забывать"
+  },
+  {
+    "baseForm": "forgive",
+    "pastTense": "forgave",
+    "pastParticiple": "forgiven",
+    "translation": "прощать"
+  },
+  {
+    "baseForm": "get",
+    "pastTense": "got",
+    "pastParticiple": "got",
+    "translation": "получать"
+  },
+  {
+    "baseForm": "give",
+    "pastTense": "gave",
+    "pastParticiple": "given",
+    "translation": "давать"
+  },
+  {
+    "baseForm": "go",
+    "pastTense": "went",
+    "pastParticiple": "gone",
+    "translation": "идти"
+  },
+  {
+    "baseForm": "grow",
+    "pastTense": "grew",
+    "pastParticiple": "grown",
+    "translation": "расти"
+  },
+  {
+    "baseForm": "have",
+    "pastTense": "had",
+    "pastParticiple": "had",
+    "translation": "иметь"
+  },
+  {
+    "baseForm": "hear",
+    "pastTense": "heard",
+    "pastParticiple": "heard",
+    "translation": "слышать"
+  },
+  {
+    "baseForm": "keep",
+    "pastTense": "kept",
+    "pastParticiple": "kept",
+    "translation": "содержать"
+  },
+  {
+    "baseForm": "know",
+    "pastTense": "knew",
+    "pastParticiple": "known",
+    "translation": "знать"
+  },
+  {
+    "baseForm": "learn",
+    "pastTense": "learnt",
+    "pastParticiple": "learnt",
+    "translation": "учить"
+  },
+  {
+    "baseForm": "leave",
+    "pastTense": "left",
+    "pastParticiple": "left",
+    "translation": "оставлять"
+  },
+  {
+    "baseForm": "let",
+    "pastTense": "let",
+    "pastParticiple": "let",
+    "translation": "позволять"
+  },
+  {
+    "baseForm": "lie",
+    "pastTense": "lay",
+    "pastParticiple": "lain",
+    "translation": "лежать"
+  },
+  {
+    "baseForm": "lose",
+    "pastTense": "lost",
+    "pastParticiple": "lost",
+    "translation": "терять"
+  },
+  {
+    "baseForm": "make",
+    "pastTense": "made",
+    "pastParticiple": "made",
+    "translation": "производить"
+  }
+]
