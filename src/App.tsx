@@ -44,10 +44,10 @@ function App({fetchShuffledIrregularVerbs}: AppProps) {
                 </div>
                 : (
                     <div className="card-container">
-                        <CardForm key={verb.baseForm} verb={verb} onSuccess={() => {
+                        <CardForm key={verb.baseForm} verb={verb} onProceed={() => {
                             setCurrentIndex(currentIndex + 1);
-                        }} onFail={() => {
-                            alert(`${verb.translation} forms aren't correct`);
+                        }} onSkip={() => {
+                            setCurrentIndex(currentIndex + 1);
                         }}/>
                     </div>
                 )}
