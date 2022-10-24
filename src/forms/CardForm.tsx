@@ -69,9 +69,9 @@ class CardForm extends React.Component<CardFormProps, CardFormState> {
     render() {
         return (
             <Card>
-                <Card.Body>
-                    <Card.Title>{this.props.verb.translation}</Card.Title>
-                    <Form onSubmit={this.handleSubmit}>
+                <Form onSubmit={this.handleSubmit}>
+                    <Card.Body>
+                        <Card.Title>{this.props.verb.translation}</Card.Title>
                         <Form.Group className="mb-3" controlId="baseForm">
                             <Form.Label>Base form</Form.Label>
                             <Form.Control type="text" onChange={this.handleInputChange} autoFocus
@@ -85,11 +85,13 @@ class CardForm extends React.Component<CardFormProps, CardFormState> {
                             <Form.Label>Past participle form</Form.Label>
                             <Form.Control type="text" onChange={this.handleInputChange} autoComplete="off"/>
                         </Form.Group>
+                    </Card.Body>
+                    <Card.Footer className="d-grid">
                         <Button variant="primary" type="submit">
                             Check answer
                         </Button>
-                    </Form>
-                </Card.Body>
+                    </Card.Footer>
+                </Form>
             </Card>
         );
     }
