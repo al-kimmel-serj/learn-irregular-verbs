@@ -3,19 +3,11 @@ import './App.css';
 import IrregularVerb from "./domain/IrregularVerb";
 import CardForm from "./forms/CardForm";
 
-async function fetchShuffledIrregularVerbs(): Promise<IrregularVerb[]> {
-    const resp = await fetch('./irregular-verbs.json');
-    const remoteIrregularVerbs: IrregularVerb[] = await resp.json();
-
-    for (let i = remoteIrregularVerbs.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [remoteIrregularVerbs[i], remoteIrregularVerbs[j]] = [remoteIrregularVerbs[j], remoteIrregularVerbs[i]];
-    }
-
-    return remoteIrregularVerbs;
+type AppProps = {
+    fetchShuffledIrregularVerbs: () => Promise<IrregularVerb[]>,
 }
 
-function App() {
+function App({fetchShuffledIrregularVerbs}: AppProps) {
     const [irregularVerbs, setIrregularVerbs] = useState<IrregularVerb[]>([]);
     const [irregularVerbsIsLoading, setIrregularVerbsIsLoading] = useState<boolean>(false);
     const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -32,7 +24,7 @@ function App() {
         }
 
         fetchDataFromBackend().catch(console.error);
-    }, []);
+    }, [fetchShuffledIrregularVerbs]);
 
     if (irregularVerbsIsLoading) {
         return (

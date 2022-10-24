@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import fetchShuffledIrregularVerbs from "./fetchers/fetchShuffledIrregularVerbs";
 
 
 const root = ReactDOM.createRoot(
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <React.StrictMode>
-        <App/>
+        <App fetchShuffledIrregularVerbs={fetchShuffledIrregularVerbs}/>
     </React.StrictMode>
 );
 
