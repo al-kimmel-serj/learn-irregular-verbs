@@ -238,5 +238,125 @@
     "pastTense": "made",
     "pastParticiple": "made",
     "translation": "производить"
+  },
+  {
+    "baseForm": "meet",
+    "pastTense": "met",
+    "pastParticiple": "met",
+    "translation": "встречать"
+  },
+  {
+    "baseForm": "pay",
+    "pastTense": "paid",
+    "pastParticiple": "paid",
+    "translation": "платить"
+  },
+  {
+    "baseForm": "put",
+    "pastTense": "put",
+    "pastParticiple": "put",
+    "translation": "положить"
+  },
+  {
+    "baseForm": "read",
+    "pastTense": "read",
+    "pastParticiple": "read",
+    "translation": "читать"
+  },
+  {
+    "baseForm": "ring",
+    "pastTense": "rang",
+    "pastParticiple": "rung",
+    "translation": "звонить"
+  },
+  {
+    "baseForm": "run",
+    "pastTense": "ran",
+    "pastParticiple": "run",
+    "translation": "бежать"
+  },
+  {
+    "baseForm": "say",
+    "pastTense": "said",
+    "pastParticiple": "said",
+    "translation": "сказать"
+  },
+  {
+    "baseForm": "see",
+    "pastTense": "saw",
+    "pastParticiple": "seen",
+    "translation": "видеть"
+  },
+  {
+    "baseForm": "sell",
+    "pastTense": "sold",
+    "pastParticiple": "sold",
+    "translation": "продавать"
+  },
+  {
+    "baseForm": "send",
+    "pastTense": "sent",
+    "pastParticiple": "sent",
+    "translation": "посылать"
+  },
+  {
+    "baseForm": "show",
+    "pastTense": "showed",
+    "pastParticiple": "shown",
+    "translation": "показывать"
+  },
+  {
+    "baseForm": "sing",
+    "pastTense": "sang",
+    "pastParticiple": "sung",
+    "translation": "петь"
+  },
+  {
+    "baseForm": "sit",
+    "pastTense": "sat",
+    "pastParticiple": "sat",
+    "translation": "сидеть"
+  },
+  {
+    "baseForm": "sleep",
+    "pastTense": "slept",
+    "pastParticiple": "slept",
+    "translation": "спать"
+  },
+  {
+    "baseForm": "speak",
+    "pastTense": "spoke",
+    "pastParticiple": "spoken",
+    "translation": "говорить"
+  },
+  {
+    "baseForm": "spend",
+    "pastTense": "spent",
+    "pastParticiple": "spent",
+    "translation": "тратить"
+  },
+  {
+    "baseForm": "stand",
+    "pastTense": "stood",
+    "pastParticiple": "stood",
+    "translation": "стоять"
+  },
+  {
+    "baseForm": "steal",
+    "pastTense": "stole",
+    "pastParticiple": "stolen",
+    "translation": "воровать"
+  },
+  {
+    "baseForm": "swim",
+    "pastTense": "swam",
+    "pastParticiple": "swum",
+    "translation": "плавать"
+  },
+  {
+    "baseForm": "sweep",
+    "pastTense": "swept",
+    "pastParticiple": "swept",
+    "translation": "выметать"
   }
 ]
