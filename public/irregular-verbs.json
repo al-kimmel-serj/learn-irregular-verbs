@@ -358,5 +358,59 @@
     "pastTense": "swept",
     "pastParticiple": "swept",
     "translation": "выметать"
+  },
+  {
+    "baseForm": "take",
+    "pastTense": "took",
+    "pastParticiple": "taken",
+    "translation": "брать, взять"
+  },
+  {
+    "baseForm": "teach",
+    "pastTense": "taught",
+    "pastParticiple": "taught",
+    "translation": "учить"
+  },
+  {
+    "baseForm": "tell",
+    "pastTense": "told",
+    "pastParticiple": "told",
+    "translation": "рассказывать"
+  },
+  {
+    "baseForm": "think",
+    "pastTense": "thought",
+    "pastParticiple": "thought",
+    "translation": "думать"
+  },
+  {
+    "baseForm": "understand",
+    "pastTense": "understood",
+    "pastParticiple": "understood",
+    "translation": "понимать"
+  },
+  {
+    "baseForm": "wake",
+    "pastTense": "woke",
+    "pastParticiple": "woken",
+    "translation": "просыпаться"
+  },
+  {
+    "baseForm": "wear",
+    "pastTense": "wore",
+    "pastParticiple": "worn",
+    "translation": "носить (одежда)"
+  },
+  {
+    "baseForm": "win",
+    "pastTense": "won",
+    "pastParticiple": "won",
+    "translation": "выигрывать"
+  },
+  {
+    "baseForm": "write",
+    "pastTense": "wrote",
+    "pastParticiple": "written",
+    "translation": "писать"
   }
 ]
